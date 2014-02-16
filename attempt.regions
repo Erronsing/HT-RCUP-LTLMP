@@ -1,0 +1,302 @@
+# This is a region definition file for the LTLMoP toolkit.
+# Format details are described at the beginning of each section below.
+# Note that all values are separated by *tabs*.
+
+Background: # Relative path of background image file
+None
+
+CalibrationPoints: # Vertices to use for map calibration: (vertex_region_name, vertex_index)
+
+Obstacles: # Names of regions to treat as obstacles
+goal2
+goal1
+
+Regions: # Stored as JSON string
+[
+    {
+        "name": "side2", 
+        "color": [
+            0, 
+            128, 
+            0
+        ], 
+        "holeList": [], 
+        "height": 0.0, 
+        "points": [
+            [
+                0.0, 
+                377.0
+            ], 
+            [
+                0.0, 
+                250.0
+            ], 
+            [
+                0.0, 
+                248.0
+            ], 
+            [
+                0.0, 
+                131.0
+            ], 
+            [
+                0.0, 
+                0.0
+            ], 
+            [
+                371.0, 
+                0.0
+            ], 
+            [
+                371.0, 
+                379.0
+            ], 
+            [
+                0.0, 
+                379.0
+            ]
+        ], 
+        "position": [
+            400.0, 
+            35.0
+        ], 
+        "type": "poly", 
+        "size": [
+            371.0, 
+            379.0
+        ]
+    }, 
+    {
+        "name": "side1", 
+        "color": [
+            0, 
+            128, 
+            0
+        ], 
+        "holeList": [], 
+        "height": 0.0, 
+        "points": [
+            [
+                0.0, 
+                377.0
+            ], 
+            [
+                0.0, 
+                250.0
+            ], 
+            [
+                0.0, 
+                248.0
+            ], 
+            [
+                0.0, 
+                131.0
+            ], 
+            [
+                0.0, 
+                0.0
+            ], 
+            [
+                371.0, 
+                0.0
+            ], 
+            [
+                371.0, 
+                379.0
+            ], 
+            [
+                0.0, 
+                379.0
+            ]
+        ], 
+        "position": [
+            30.0, 
+            36.0
+        ], 
+        "type": "poly", 
+        "size": [
+            371.0, 
+            379.0
+        ]
+    }, 
+    {
+        "name": "crease2", 
+        "color": [
+            0, 
+            0, 
+            255
+        ], 
+        "holeList": [], 
+        "height": 0.0, 
+        "points": [
+            [
+                0.0, 
+                117.0
+            ], 
+            [
+                0.0, 
+                0.0
+            ], 
+            [
+                56.0, 
+                0.0
+            ], 
+            [
+                56.0, 
+                119.0
+            ], 
+            [
+                0.0, 
+                119.0
+            ]
+        ], 
+        "position": [
+            715.0, 
+            164.0
+        ], 
+        "type": "poly", 
+        "size": [
+            56.0, 
+            119.0
+        ]
+    }, 
+    {
+        "name": "crease1", 
+        "color": [
+            0, 
+            0, 
+            255
+        ], 
+        "holeList": [], 
+        "height": 0.0, 
+        "points": [
+            [
+                0.0, 
+                117.0
+            ], 
+            [
+                0.0, 
+                0.0
+            ], 
+            [
+                56.0, 
+                0.0
+            ], 
+            [
+                56.0, 
+                119.0
+            ], 
+            [
+                0.0, 
+                119.0
+            ]
+        ], 
+        "position": [
+            30.0, 
+            167.0
+        ], 
+        "type": "poly", 
+        "size": [
+            56.0, 
+            119.0
+        ]
+    }, 
+    {
+        "name": "goal2", 
+        "color": [
+            255, 
+            255, 
+            128
+        ], 
+        "height": 5.0, 
+        "position": [
+            771.0, 
+            166.0
+        ], 
+        "type": "rect", 
+        "size": [
+            21.0, 
+            117.0
+        ]
+    }, 
+    {
+        "name": "goal1", 
+        "color": [
+            255, 
+            255, 
+            128
+        ], 
+        "height": 5.0, 
+        "position": [
+            9.0, 
+            167.0
+        ], 
+        "type": "rect", 
+        "size": [
+            21.0, 
+            117.0
+        ]
+    }, 
+    {
+        "name": "boundary", 
+        "color": [
+            255, 
+            128, 
+            0
+        ], 
+        "holeList": [], 
+        "height": 0.0, 
+        "points": [
+            [
+                0.0, 
+                250.0
+            ], 
+            [
+                0.0, 
+                248.0
+            ], 
+            [
+                0.0, 
+                131.0
+            ], 
+            [
+                0.0, 
+                0.0
+            ], 
+            [
+                371.0, 
+                0.0
+            ], 
+            [
+                740.0, 
+                0.0
+            ], 
+            [
+                740.0, 
+                377.0
+            ], 
+            [
+                0.0, 
+                377.0
+            ]
+        ], 
+        "position": [
+            30.0, 
+            36.0
+        ], 
+        "type": "poly", 
+        "size": [
+            740.0, 
+            377.0
+        ]
+    }
+]
+
+Transitions: # Region 1 Name, Region 2 Name, Bidirectional transition faces (face1_x1, face1_y1, face1_x2, face1_y2, face2_x1, ...)
+side1	crease1	30.0	284.0	30.0	167.0	30.0	284.0	30.0	286.0
+side1	goal1	30.0	284.0	30.0	167.0
+side1	boundary	30.0	36.0	401.0	36.0	30.0	284.0	30.0	167.0	30.0	413.0	30.0	286.0	30.0	284.0	30.0	286.0	30.0	36.0	30.0	167.0
+crease1	goal1	30.0	284.0	30.0	167.0
+crease1	boundary	30.0	284.0	30.0	167.0	30.0	284.0	30.0	286.0
+goal1	boundary	30.0	284.0	30.0	167.0
+
