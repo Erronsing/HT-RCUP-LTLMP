@@ -6,6 +6,9 @@ Background: # Relative path of background image file
 None
 
 CalibrationPoints: # Vertices to use for map calibration: (vertex_region_name, vertex_index)
+circle1	4
+crease2	2
+boundary	0
 
 Obstacles: # Names of regions to treat as obstacles
 
@@ -22,36 +25,36 @@ Regions: # Stored as JSON string
         "height": 0.0, 
         "points": [
             [
-                31, 
-                0
+                31.0, 
+                0.0
             ], 
             [
-                59, 
-                0
+                59.0, 
+                0.0
             ], 
             [
-                75, 
-                30
+                75.0, 
+                30.0
             ], 
             [
-                66, 
-                63
+                66.0, 
+                63.0
             ], 
             [
-                28, 
-                74
+                28.0, 
+                74.0
             ], 
             [
-                13, 
-                54
+                13.0, 
+                54.0
             ], 
             [
-                0, 
-                28
+                0.0, 
+                28.0
             ], 
             [
-                23, 
-                7
+                23.0, 
+                7.0
             ]
         ], 
         "position": [
@@ -92,7 +95,7 @@ Regions: # Stored as JSON string
         "height": 0.0, 
         "position": [
             71.0, 
-            169.0
+            171.0
         ], 
         "type": "rect", 
         "size": [
