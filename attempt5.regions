@@ -1,0 +1,469 @@
+# This is a region definition file for the LTLMoP toolkit.
+# Format details are described at the beginning of each section below.
+# Note that all values are separated by *tabs*.
+
+Background: # Relative path of background image file
+None
+
+CalibrationPoints: # Vertices to use for map calibration: (vertex_region_name, vertex_index)
+circle	7
+sideline2	2
+boundary	0
+boundary	4
+
+Obstacles: # Names of regions to treat as obstacles
+goal2
+goal1
+
+Regions: # Stored as JSON string
+[
+    {
+        "name": "side1", 
+        "color": [
+            128, 
+            255, 
+            128
+        ], 
+        "holeList": [], 
+        "height": 0.0, 
+        "points": [
+            [
+                1.0, 
+                110.0
+            ], 
+            [
+                0.0, 
+                0.0
+            ], 
+            [
+                318.0, 
+                0.0
+            ], 
+            [
+                316.0, 
+                124.0
+            ], 
+            [
+                285.0, 
+                132.0
+            ], 
+            [
+                271.0, 
+                138.0
+            ], 
+            [
+                264.0, 
+                176.0
+            ], 
+            [
+                268, 
+                201
+            ], 
+            [
+                270.0, 
+                202.0
+            ], 
+            [
+                294.0, 
+                210.0
+            ], 
+            [
+                318.0, 
+                216.0
+            ], 
+            [
+                318.0, 
+                357.0
+            ], 
+            [
+                0.0, 
+                357.0
+            ], 
+            [
+                0.0, 
+                358.0
+            ], 
+            [
+                0.0, 
+                357.0
+            ], 
+            [
+                1.0, 
+                235.0
+            ], 
+            [
+                39.0, 
+                235.0
+            ], 
+            [
+                39.0, 
+                110.0
+            ]
+        ], 
+        "position": [
+            108.0, 
+            106.0
+        ], 
+        "type": "poly", 
+        "size": [
+            318.0, 
+            358.0
+        ]
+    }, 
+    {
+        "name": "circle", 
+        "color": [
+            64, 
+            128, 
+            128
+        ], 
+        "holeList": [], 
+        "height": 0.0, 
+        "points": [
+            [
+                52.0, 
+                0.0
+            ], 
+            [
+                34.0, 
+                3.0
+            ], 
+            [
+                21.0, 
+                8.0
+            ], 
+            [
+                7.0, 
+                14.0
+            ], 
+            [
+                7.0, 
+                28.0
+            ], 
+            [
+                1.0, 
+                36.0
+            ], 
+            [
+                0.0, 
+                52.0
+            ], 
+            [
+                6.0, 
+                78.0
+            ], 
+            [
+                30.0, 
+                86.0
+            ], 
+            [
+                54.0, 
+                92.0
+            ], 
+            [
+                69.0, 
+                87.0
+            ], 
+            [
+                94.0, 
+                75.0
+            ], 
+            [
+                102.0, 
+                42.0
+            ], 
+            [
+                94.0, 
+                18.0
+            ], 
+            [
+                78.0, 
+                4.0
+            ], 
+            [
+                63.0, 
+                0.0
+            ]
+        ], 
+        "position": [
+            372.0, 
+            230.0
+        ], 
+        "type": "poly", 
+        "size": [
+            102.0, 
+            92.0
+        ]
+    }, 
+    {
+        "name": "goal2", 
+        "color": [
+            255, 
+            255, 
+            255
+        ], 
+        "height": 10.0, 
+        "position": [
+            700.0, 
+            232.0
+        ], 
+        "type": "rect", 
+        "size": [
+            44.0, 
+            91.0
+        ]
+    }, 
+    {
+        "name": "goal1", 
+        "color": [
+            255, 
+            255, 
+            255
+        ], 
+        "height": 10.0, 
+        "position": [
+            66.0, 
+            232.0
+        ], 
+        "type": "rect", 
+        "size": [
+            43.0, 
+            94.0
+        ]
+    }, 
+    {
+        "name": "penalty_area2", 
+        "color": [
+            128, 
+            255, 
+            255
+        ], 
+        "holeList": [], 
+        "height": 0.0, 
+        "points": [
+            [
+                0.0, 
+                0.0
+            ], 
+            [
+                39.0, 
+                0.0
+            ], 
+            [
+                39.0, 
+                18.0
+            ], 
+            [
+                39.0, 
+                109.0
+            ], 
+            [
+                39.0, 
+                122.0
+            ], 
+            [
+                0.0, 
+                122.0
+            ]
+        ], 
+        "position": [
+            661.0, 
+            214.0
+        ], 
+        "type": "poly", 
+        "size": [
+            39.0, 
+            122.0
+        ]
+    }, 
+    {
+        "name": "penalty_area1", 
+        "color": [
+            255, 
+            255, 
+            128
+        ], 
+        "holeList": [], 
+        "height": 0.0, 
+        "points": [
+            [
+                0.0, 
+                110.0
+            ], 
+            [
+                0.0, 
+                16.0
+            ], 
+            [
+                0.0, 
+                0.0
+            ], 
+            [
+                38.0, 
+                0.0
+            ], 
+            [
+                38.0, 
+                125.0
+            ], 
+            [
+                0.0, 
+                125.0
+            ]
+        ], 
+        "position": [
+            109.0, 
+            216.0
+        ], 
+        "type": "poly", 
+        "size": [
+            38.0, 
+            125.0
+        ]
+    }, 
+    {
+        "name": "sideline1", 
+        "color": [
+            255, 
+            0, 
+            0
+        ], 
+        "holeList": [], 
+        "height": 0.0, 
+        "points": [
+            [
+                0.0, 
+                1.0
+            ], 
+            [
+                0.0, 
+                0.0
+            ], 
+            [
+                318.0, 
+                0.0
+            ], 
+            [
+                593.0, 
+                0.0
+            ], 
+            [
+                593.0, 
+                38.0
+            ], 
+            [
+                0.0, 
+                38.0
+            ]
+        ], 
+        "position": [
+            108.0, 
+            463.0
+        ], 
+        "type": "poly", 
+        "size": [
+            593.0, 
+            38.0
+        ]
+    }, 
+    {
+        "name": "sideline2", 
+        "color": [
+            0, 
+            0, 
+            255
+        ], 
+        "holeList": [], 
+        "height": 0.0, 
+        "points": [
+            [
+                0.0, 
+                0.0
+            ], 
+            [
+                594.0, 
+                0.0
+            ], 
+            [
+                594.0, 
+                41.0
+            ], 
+            [
+                593.0, 
+                41.0
+            ], 
+            [
+                318.0, 
+                41.0
+            ], 
+            [
+                0.0, 
+                41.0
+            ]
+        ], 
+        "position": [
+            108.0, 
+            65.0
+        ], 
+        "type": "poly", 
+        "size": [
+            594.0, 
+            41.0
+        ]
+    }, 
+    {
+        "name": "boundary", 
+        "color": [
+            0, 
+            128, 
+            0
+        ], 
+        "holeList": [], 
+        "height": 0.0, 
+        "points": [
+            [
+                0.0, 
+                0.0
+            ], 
+            [
+                680.0, 
+                0.0
+            ], 
+            [
+                680.0, 
+                166.0
+            ], 
+            [
+                680.0, 
+                257.0
+            ], 
+            [
+                680.0, 
+                434.0
+            ], 
+            [
+                0.0, 
+                434.0
+            ]
+        ], 
+        "position": [
+            64.0, 
+            66.0
+        ], 
+        "type": "poly", 
+        "size": [
+            680.0, 
+            434.0
+        ]
+    }
+]
+
+Transitions: # Region 1 Name, Region 2 Name, Bidirectional transition faces (face1_x1, face1_y1, face1_x2, face1_y2, face2_x1, ...)
+side1	circle	379.0	244.0	393.0	238.0	402.0	316.0	426.0	322.0	378.0	308.0	402.0	316.0
+side1	penalty_area1	147.0	216.0	147.0	341.0	147.0	216.0	109.0	216.0	109.0	341.0	147.0	341.0
+side1	sideline1	108.0	463.0	108.0	464.0	426.0	463.0	108.0	463.0
+side1	sideline2	108.0	106.0	426.0	106.0
+goal2	penalty_area2	700.0	323.0	700.0	232.0
+goal2	boundary	744.0	323.0	744.0	232.0
+goal1	penalty_area1	109.0	326.0	109.0	232.0
+
