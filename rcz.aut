@@ -1,0 +1,120 @@
+
+
+State 0 with rank 0 -> <ball_isnear:0, missing_goalie:0, roster_swap:0, block_goal:0, play_goalie:0, bit0:0, bit1:0, bit2:1, bit3:0, bit4:0>
+	With successors : 0, 1, 2, 3, 4, 5, 6, 7
+State 1 with rank 0 -> <ball_isnear:0, missing_goalie:0, roster_swap:1, block_goal:0, play_goalie:0, bit0:0, bit1:0, bit2:1, bit3:0, bit4:0>
+	With successors : 0, 1, 2, 3, 4, 5, 6, 7
+State 2 with rank 0 -> <ball_isnear:0, missing_goalie:1, roster_swap:0, block_goal:0, play_goalie:1, bit0:0, bit1:0, bit2:0, bit3:1, bit4:1>
+	With successors : 8, 9, 10, 11, 12, 13, 14, 15
+State 3 with rank 0 -> <ball_isnear:0, missing_goalie:1, roster_swap:1, block_goal:0, play_goalie:0, bit0:0, bit1:0, bit2:1, bit3:0, bit4:0>
+	With successors : 0, 1, 2, 3, 4, 5, 6, 7
+State 4 with rank 0 -> <ball_isnear:1, missing_goalie:0, roster_swap:0, block_goal:0, play_goalie:0, bit0:0, bit1:0, bit2:1, bit3:0, bit4:0>
+	With successors : 0, 1, 2, 3, 4, 5, 6, 7
+State 5 with rank 0 -> <ball_isnear:1, missing_goalie:0, roster_swap:1, block_goal:0, play_goalie:0, bit0:0, bit1:0, bit2:1, bit3:0, bit4:0>
+	With successors : 0, 1, 2, 3, 4, 5, 6, 7
+State 6 with rank 0 -> <ball_isnear:1, missing_goalie:1, roster_swap:0, block_goal:0, play_goalie:1, bit0:0, bit1:0, bit2:0, bit3:1, bit4:1>
+	With successors : 8, 9, 10, 11, 12, 13, 14, 15
+State 7 with rank 0 -> <ball_isnear:1, missing_goalie:1, roster_swap:1, block_goal:0, play_goalie:0, bit0:0, bit1:0, bit2:1, bit3:0, bit4:0>
+	With successors : 0, 1, 2, 3, 4, 5, 6, 7
+State 8 with rank 0 -> <ball_isnear:0, missing_goalie:0, roster_swap:0, block_goal:0, play_goalie:1, bit0:0, bit1:0, bit2:0, bit3:0, bit4:1>
+	With successors : 8, 21, 10, 22, 12, 23, 14, 24
+State 9 with rank 0 -> <ball_isnear:0, missing_goalie:0, roster_swap:1, block_goal:0, play_goalie:0, bit0:0, bit1:0, bit2:0, bit3:1, bit4:1>
+	With successors : 16, 9, 10, 11, 17, 18, 19, 20
+State 10 with rank 0 -> <ball_isnear:0, missing_goalie:1, roster_swap:0, block_goal:0, play_goalie:1, bit0:0, bit1:0, bit2:0, bit3:0, bit4:1>
+	With successors : 8, 21, 10, 22, 12, 23, 14, 24
+State 11 with rank 0 -> <ball_isnear:0, missing_goalie:1, roster_swap:1, block_goal:0, play_goalie:0, bit0:0, bit1:0, bit2:0, bit3:1, bit4:1>
+	With successors : 16, 9, 10, 11, 17, 18, 19, 20
+State 12 with rank 0 -> <ball_isnear:1, missing_goalie:0, roster_swap:0, block_goal:1, play_goalie:1, bit0:0, bit1:0, bit2:0, bit3:0, bit4:1>
+	With successors : 8, 21, 10, 22, 12, 23, 14, 24
+State 13 with rank 0 -> <ball_isnear:1, missing_goalie:0, roster_swap:1, block_goal:1, play_goalie:0, bit0:0, bit1:0, bit2:0, bit3:1, bit4:1>
+	With successors : 16, 9, 10, 11, 17, 18, 19, 20
+State 14 with rank 0 -> <ball_isnear:1, missing_goalie:1, roster_swap:0, block_goal:1, play_goalie:1, bit0:0, bit1:0, bit2:0, bit3:0, bit4:1>
+	With successors : 8, 21, 10, 22, 12, 23, 14, 24
+State 15 with rank 0 -> <ball_isnear:1, missing_goalie:1, roster_swap:1, block_goal:1, play_goalie:0, bit0:0, bit1:0, bit2:0, bit3:1, bit4:1>
+	With successors : 16, 9, 10, 11, 17, 18, 19, 20
+State 16 with rank 0 -> <ball_isnear:0, missing_goalie:0, roster_swap:0, block_goal:0, play_goalie:0, bit0:0, bit1:0, bit2:0, bit3:1, bit4:1>
+	With successors : 16, 9, 10, 11, 17, 18, 19, 20
+State 17 with rank 0 -> <ball_isnear:1, missing_goalie:0, roster_swap:0, block_goal:0, play_goalie:0, bit0:0, bit1:0, bit2:0, bit3:1, bit4:1>
+	With successors : 16, 9, 10, 11, 17, 18, 19, 20
+State 18 with rank 0 -> <ball_isnear:1, missing_goalie:0, roster_swap:1, block_goal:0, play_goalie:0, bit0:0, bit1:0, bit2:0, bit3:1, bit4:1>
+	With successors : 16, 9, 10, 11, 17, 18, 19, 20
+State 19 with rank 0 -> <ball_isnear:1, missing_goalie:1, roster_swap:0, block_goal:0, play_goalie:1, bit0:0, bit1:0, bit2:0, bit3:0, bit4:1>
+	With successors : 8, 21, 10, 22, 12, 23, 14, 24
+State 20 with rank 0 -> <ball_isnear:1, missing_goalie:1, roster_swap:1, block_goal:0, play_goalie:0, bit0:0, bit1:0, bit2:0, bit3:1, bit4:1>
+	With successors : 16, 9, 10, 11, 17, 18, 19, 20
+State 21 with rank 0 -> <ball_isnear:0, missing_goalie:0, roster_swap:1, block_goal:0, play_goalie:0, bit0:0, bit1:0, bit2:0, bit3:0, bit4:1>
+	With successors : 25, 21, 10, 22, 26, 27, 19, 28
+State 22 with rank 0 -> <ball_isnear:0, missing_goalie:1, roster_swap:1, block_goal:0, play_goalie:0, bit0:0, bit1:0, bit2:0, bit3:0, bit4:1>
+	With successors : 25, 21, 10, 22, 26, 27, 19, 28
+State 23 with rank 0 -> <ball_isnear:1, missing_goalie:0, roster_swap:1, block_goal:1, play_goalie:0, bit0:0, bit1:0, bit2:0, bit3:0, bit4:1>
+	With successors : 25, 21, 10, 22, 26, 27, 19, 28
+State 24 with rank 0 -> <ball_isnear:1, missing_goalie:1, roster_swap:1, block_goal:1, play_goalie:0, bit0:0, bit1:0, bit2:0, bit3:0, bit4:1>
+	With successors : 25, 21, 10, 22, 26, 27, 19, 28
+State 25 with rank 0 -> <ball_isnear:0, missing_goalie:0, roster_swap:0, block_goal:0, play_goalie:0, bit0:0, bit1:0, bit2:0, bit3:0, bit4:1>
+	With successors : 25, 21, 10, 22, 26, 27, 19, 28
+State 26 with rank 0 -> <ball_isnear:1, missing_goalie:0, roster_swap:0, block_goal:0, play_goalie:0, bit0:0, bit1:0, bit2:0, bit3:0, bit4:1>
+	With successors : 25, 21, 10, 22, 26, 27, 19, 28
+State 27 with rank 0 -> <ball_isnear:1, missing_goalie:0, roster_swap:1, block_goal:0, play_goalie:0, bit0:0, bit1:0, bit2:0, bit3:0, bit4:1>
+	With successors : 25, 21, 10, 22, 26, 27, 19, 28
+State 28 with rank 0 -> <ball_isnear:1, missing_goalie:1, roster_swap:1, block_goal:0, play_goalie:0, bit0:0, bit1:0, bit2:0, bit3:0, bit4:1>
+	With successors : 25, 21, 10, 22, 26, 27, 19, 28
+State 29 with rank 0 -> <ball_isnear:0, missing_goalie:0, roster_swap:0, block_goal:0, play_goalie:1, bit0:0, bit1:0, bit2:1, bit3:0, bit4:0>
+	With successors : 30, 1, 2, 3, 31, 32, 33, 34
+State 30 with rank 0 -> <ball_isnear:0, missing_goalie:0, roster_swap:0, block_goal:0, play_goalie:1, bit0:0, bit1:0, bit2:0, bit3:1, bit4:1>
+	With successors : 8, 9, 10, 11, 12, 13, 14, 15
+State 31 with rank 0 -> <ball_isnear:1, missing_goalie:0, roster_swap:0, block_goal:1, play_goalie:1, bit0:0, bit1:0, bit2:0, bit3:1, bit4:1>
+	With successors : 8, 9, 10, 11, 12, 13, 14, 15
+State 32 with rank 0 -> <ball_isnear:1, missing_goalie:0, roster_swap:1, block_goal:1, play_goalie:0, bit0:0, bit1:0, bit2:1, bit3:0, bit4:0>
+	With successors : 0, 1, 2, 3, 4, 5, 6, 7
+State 33 with rank 0 -> <ball_isnear:1, missing_goalie:1, roster_swap:0, block_goal:1, play_goalie:1, bit0:0, bit1:0, bit2:0, bit3:1, bit4:1>
+	With successors : 8, 9, 10, 11, 12, 13, 14, 15
+State 34 with rank 0 -> <ball_isnear:1, missing_goalie:1, roster_swap:1, block_goal:1, play_goalie:0, bit0:0, bit1:0, bit2:1, bit3:0, bit4:0>
+	With successors : 0, 1, 2, 3, 4, 5, 6, 7
+State 35 with rank 0 -> <ball_isnear:0, missing_goalie:0, roster_swap:0, block_goal:1, play_goalie:0, bit0:0, bit1:0, bit2:1, bit3:0, bit4:0>
+	With successors : 0, 1, 2, 3, 4, 5, 6, 7
+State 36 with rank 0 -> <ball_isnear:0, missing_goalie:0, roster_swap:0, block_goal:1, play_goalie:1, bit0:0, bit1:0, bit2:1, bit3:0, bit4:0>
+	With successors : 30, 1, 2, 3, 31, 32, 33, 34
+State 37 with rank 0 -> <ball_isnear:0, missing_goalie:0, roster_swap:1, block_goal:0, play_goalie:1, bit0:0, bit1:0, bit2:1, bit3:0, bit4:0>
+	With successors : 30, 1, 2, 3, 31, 32, 33, 34
+State 38 with rank 0 -> <ball_isnear:0, missing_goalie:0, roster_swap:1, block_goal:1, play_goalie:0, bit0:0, bit1:0, bit2:1, bit3:0, bit4:0>
+	With successors : 0, 1, 2, 3, 4, 5, 6, 7
+State 39 with rank 0 -> <ball_isnear:0, missing_goalie:0, roster_swap:1, block_goal:1, play_goalie:1, bit0:0, bit1:0, bit2:1, bit3:0, bit4:0>
+	With successors : 30, 1, 2, 3, 31, 32, 33, 34
+State 40 with rank 0 -> <ball_isnear:0, missing_goalie:1, roster_swap:0, block_goal:0, play_goalie:0, bit0:0, bit1:0, bit2:1, bit3:0, bit4:0>
+	With successors : 0, 1, 2, 3, 4, 5, 6, 7
+State 41 with rank 0 -> <ball_isnear:0, missing_goalie:1, roster_swap:0, block_goal:0, play_goalie:1, bit0:0, bit1:0, bit2:1, bit3:0, bit4:0>
+	With successors : 30, 1, 2, 3, 31, 32, 33, 34
+State 42 with rank 0 -> <ball_isnear:0, missing_goalie:1, roster_swap:0, block_goal:1, play_goalie:0, bit0:0, bit1:0, bit2:1, bit3:0, bit4:0>
+	With successors : 0, 1, 2, 3, 4, 5, 6, 7
+State 43 with rank 0 -> <ball_isnear:0, missing_goalie:1, roster_swap:0, block_goal:1, play_goalie:1, bit0:0, bit1:0, bit2:1, bit3:0, bit4:0>
+	With successors : 30, 1, 2, 3, 31, 32, 33, 34
+State 44 with rank 0 -> <ball_isnear:0, missing_goalie:1, roster_swap:1, block_goal:0, play_goalie:1, bit0:0, bit1:0, bit2:1, bit3:0, bit4:0>
+	With successors : 30, 1, 2, 3, 31, 32, 33, 34
+State 45 with rank 0 -> <ball_isnear:0, missing_goalie:1, roster_swap:1, block_goal:1, play_goalie:0, bit0:0, bit1:0, bit2:1, bit3:0, bit4:0>
+	With successors : 0, 1, 2, 3, 4, 5, 6, 7
+State 46 with rank 0 -> <ball_isnear:0, missing_goalie:1, roster_swap:1, block_goal:1, play_goalie:1, bit0:0, bit1:0, bit2:1, bit3:0, bit4:0>
+	With successors : 30, 1, 2, 3, 31, 32, 33, 34
+State 47 with rank 0 -> <ball_isnear:1, missing_goalie:0, roster_swap:0, block_goal:0, play_goalie:1, bit0:0, bit1:0, bit2:1, bit3:0, bit4:0>
+	With successors : 30, 1, 2, 3, 31, 32, 33, 34
+State 48 with rank 0 -> <ball_isnear:1, missing_goalie:0, roster_swap:0, block_goal:1, play_goalie:0, bit0:0, bit1:0, bit2:1, bit3:0, bit4:0>
+	With successors : 0, 1, 2, 3, 4, 5, 6, 7
+State 49 with rank 0 -> <ball_isnear:1, missing_goalie:0, roster_swap:0, block_goal:1, play_goalie:1, bit0:0, bit1:0, bit2:1, bit3:0, bit4:0>
+	With successors : 30, 1, 2, 3, 31, 32, 33, 34
+State 50 with rank 0 -> <ball_isnear:1, missing_goalie:0, roster_swap:1, block_goal:0, play_goalie:1, bit0:0, bit1:0, bit2:1, bit3:0, bit4:0>
+	With successors : 30, 1, 2, 3, 31, 32, 33, 34
+State 51 with rank 0 -> <ball_isnear:1, missing_goalie:0, roster_swap:1, block_goal:1, play_goalie:1, bit0:0, bit1:0, bit2:1, bit3:0, bit4:0>
+	With successors : 30, 1, 2, 3, 31, 32, 33, 34
+State 52 with rank 0 -> <ball_isnear:1, missing_goalie:1, roster_swap:0, block_goal:0, play_goalie:0, bit0:0, bit1:0, bit2:1, bit3:0, bit4:0>
+	With successors : 0, 1, 2, 3, 4, 5, 6, 7
+State 53 with rank 0 -> <ball_isnear:1, missing_goalie:1, roster_swap:0, block_goal:0, play_goalie:1, bit0:0, bit1:0, bit2:1, bit3:0, bit4:0>
+	With successors : 30, 1, 2, 3, 31, 32, 33, 34
+State 54 with rank 0 -> <ball_isnear:1, missing_goalie:1, roster_swap:0, block_goal:1, play_goalie:0, bit0:0, bit1:0, bit2:1, bit3:0, bit4:0>
+	With successors : 0, 1, 2, 3, 4, 5, 6, 7
+State 55 with rank 0 -> <ball_isnear:1, missing_goalie:1, roster_swap:0, block_goal:1, play_goalie:1, bit0:0, bit1:0, bit2:1, bit3:0, bit4:0>
+	With successors : 30, 1, 2, 3, 31, 32, 33, 34
+State 56 with rank 0 -> <ball_isnear:1, missing_goalie:1, roster_swap:1, block_goal:0, play_goalie:1, bit0:0, bit1:0, bit2:1, bit3:0, bit4:0>
+	With successors : 30, 1, 2, 3, 31, 32, 33, 34
+State 57 with rank 0 -> <ball_isnear:1, missing_goalie:1, roster_swap:1, block_goal:1, play_goalie:1, bit0:0, bit1:0, bit2:1, bit3:0, bit4:0>
+	With successors : 30, 1, 2, 3, 31, 32, 33, 34
+
+
